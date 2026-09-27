@@ -1,0 +1,245 @@
+// =====================================
+// TABLET
+// 768px - 1024px
+// =====================================
+
+@media(max-width:1024px){
+
+
+
+.hero{
+
+    min-height:100vh;
+
+    padding:
+
+    100px 60px 60px;
+
+
+}
+
+
+
+// HEADER
+
+.header{
+
+    padding:
+
+    0 40px;
+
+
+}
+
+
+
+
+// LOGO FONDO
+
+
+.hero-logo{
+
+
+    font-size:420px;
+
+
+    right:-120px;
+
+
+    top:25%;
+
+
+    opacity:.08;
+
+
+}
+
+
+
+
+
+
+// CONTENT
+
+
+.hero-content{
+
+
+    max-width:650px;
+
+
+}
+
+
+
+
+
+
+.subtitle{
+
+
+    font-size:11px;
+
+    letter-spacing:5px;
+
+
+}
+
+
+
+
+
+.title{
+
+
+    font-size:120px;
+
+
+    letter-spacing:-5px;
+
+
+}
+
+
+
+
+
+.role{
+
+
+    font-size:45px;
+
+
+}
+
+
+
+
+
+
+.description{
+
+
+    font-size:16px;
+
+
+    max-width:500px;
+
+
+}
+
+
+
+
+
+
+// BOTONES
+
+
+.hero-buttons{
+
+
+    margin-top:30px;
+
+
+}
+
+
+
+
+.btn{
+
+
+    padding:
+
+    14px 28px;
+
+
+}
+
+
+
+
+
+
+// REDES
+
+
+.socials{
+
+
+    margin-top:35px;
+
+
+    gap:25px;
+
+
+}
+
+
+
+
+
+
+// CODE CARD
+
+.code-card{
+
+
+    position:absolute;
+
+
+    bottom:90px;
+
+
+    right:25%;
+
+
+    width:300px;
+
+
+    padding:20px;
+
+
+
+    pre{
+
+
+        font-size:11px;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+// OCULTAR MENSAJE LATERAL
+
+
+.side-message{
+
+    display:none;
+
+}
+
+
+
+
+
+
+.scroll{
+
+    bottom:30px;
+
+    left:60px;
+
+}
+
+
+
+}
