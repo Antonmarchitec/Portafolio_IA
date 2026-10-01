@@ -30,13 +30,13 @@ z-index:10;
 
 .logo{
 
-font-family:variables.$font-display;
+font-family: variables.$font-display;
 
 font-size:35px;
 
 font-weight:700;
 
-color: variables.$cyan;
+color:variables.$cyan;
 
 }
 
@@ -55,14 +55,14 @@ font-size:15px;
 
 color:#cbd5e1;
 
-transition: variables.$transition;
+transition:variables.$transition;
 
 
 
 &:hover,
 &.active{
 
-color: variables.$cyan;
+color:variables.$cyan;
 
 }
 
@@ -93,7 +93,7 @@ border-radius:30px;
 color:white;
 
 
-transition: variables.$transition;
+transition:variables.$transition;
 
 
 
@@ -104,7 +104,7 @@ background:variables.$cyan;
 
 color:#001018;
 
-box-shadow: variables.$glow;
+box-shadow:variables.$glow;
 
 
 }

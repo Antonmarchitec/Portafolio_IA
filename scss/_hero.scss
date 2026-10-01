@@ -1,12 +1,19 @@
 @use "variables";
 
-
 .hero{
+
 min-height:100vh;
+
 position:relative;
+
 display:flex;
+
 align-items:center;
-padding:120px 6%;
+
+padding:
+
+120px 6%;
+
 
 background:
 
@@ -18,10 +25,7 @@ transparent 35%
 
 variables.$bg-primary;
 
-
 overflow:hidden;
-
-
 }
 
 
@@ -42,7 +46,7 @@ top:15%;
 font-size:600px;
 
 
-font-family: variables.$font-display;
+font-family:variables.$font-display;
 
 
 font-weight:900;
@@ -86,7 +90,7 @@ font-size:13px;
 
 letter-spacing:7px;
 
-color: variables.$cyan;
+color:variables.$cyan;
 
 display:block;
 
@@ -102,7 +106,7 @@ margin-bottom:25px;
 .title{
 
 
-font-family: variables.$font-display;
+font-family:variables.$font-display;
 
 
 font-size:
@@ -143,7 +147,7 @@ letter-spacing:-8px;
 font-size:60px;
 
 
-font-family: variables.$font-display;
+font-family:variables.$font-display;
 
 
 margin-top:20px;
@@ -155,7 +159,7 @@ font-weight:800;
 
 span{
 
-color: variables.$cyan;
+color:variables.$cyan;
 
 }
 
@@ -182,7 +186,7 @@ font-size:18px;
 line-height:1.6;
 
 
-color: variables.$text-light;
+color:variables.$text-light;
 
 
 }
@@ -223,7 +227,7 @@ border-radius:10px;
 font-weight:600;
 
 
-transition: variables.$transition;
+transition:variables.$transition;
 
 
 
@@ -235,7 +239,7 @@ transition: variables.$transition;
 .primary{
 
 
-background: variables.$cyan;
+background:variables.$cyan;
 
 
 color:#001018;
@@ -244,7 +248,7 @@ color:#001018;
 
 &:hover{
 
-box-shadow: variables.$glow;
+box-shadow:variables.$glow;
 
 transform:translateY(-5px);
 
@@ -259,12 +263,14 @@ transform:translateY(-5px);
 .secondary{
 
 
-border: 1px solid variables.$cyan;
+border:
+
+1px solid variables.$cyan;
 
 
 &:hover{
 
-background: variables.$cyan;
+background:variables.$cyan;
 
 color:#001018;
 
@@ -295,7 +301,7 @@ margin-top:45px;
 a{
 
 
-color: variables.$cyan;
+color:variables.$cyan;
 
 
 font-size:14px;
@@ -315,24 +321,50 @@ font-size:14px;
 
 .code-card{
 
-    position:absolute;
-    bottom:120px;
-    right:35%;
-    background:rgba(5,20,35,.8);
-    border: 1px solid rgba(0,245,212,.3);
-    padding:25px;
-    border-radius:15px;
-    backdrop-filter:blur(10px);
 
-    pre{
+position:absolute;
 
-    font-family:monospace;
 
-    color: variables.$cyan;
+bottom:120px;
 
-    font-size:14px;
 
-    }
+right:35%;
+
+
+background:
+
+rgba(5,20,35,.8);
+
+
+
+border:
+
+1px solid rgba(0,245,212,.3);
+
+
+
+padding:25px;
+
+
+border-radius:15px;
+
+
+
+backdrop-filter:blur(10px);
+
+
+
+pre{
+
+font-family:monospace;
+
+color:variables.$cyan;
+
+font-size:14px;
+
+}
+
+
 
 }
 
@@ -392,7 +424,7 @@ letter-spacing:5px;
 font-size:12px;
 
 
-color: variables.$text-light;
+color:variables.$text-light;
 
 
 }
