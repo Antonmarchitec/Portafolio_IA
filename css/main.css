@@ -849,7 +849,6 @@ button {
     display: flex;
     align-items: center;
     padding: 120px 6%;
-    border: 2px solid yellow;
     background: radial-gradient(circle at 80% 40%, rgba(0, 245, 212, 0.15), transparent 35%), linear-gradient(rgba(0, 245, 212, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 245, 212, 0.035) 1px, transparent 1px), #020b18;
     background-size: auto, 45px 45px, 45px 45px, auto;
     overflow: hidden;
