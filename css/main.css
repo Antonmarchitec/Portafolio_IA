@@ -963,9 +963,10 @@ button {
     margin-top: 30px;
   }
   .hero .btn {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 15px 28px;
+    padding: 10px 28px;
     border-radius: 10px;
     font-weight: 400;
     transition: all 0.35s ease;
@@ -1024,7 +1025,7 @@ button {
   }
   .hero .code-card {
     position: absolute;
-    width: 80%;
+    width: 90%;
     padding: 30px;
     bottom: 50px;
     right: 0px;
