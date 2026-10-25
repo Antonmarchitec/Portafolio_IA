@@ -1008,11 +1008,12 @@
 @media (min-width: 350px) and (max-width: 480px) {
  //FONDO COMPLETO
     .hero {
-            min-height: 100vh;
+            min-height: 1000px;
             position: relative;
             display: flex;
             align-items: center;
             padding: 120px 6%;
+            border: 2px solid yellow;
             background:
             radial-gradient(
                 circle at 80% 40%,
@@ -1304,12 +1305,12 @@
 
         .code-card {
             position: absolute;
-            width: 100%;
+            width: 80%;
             padding: 30px;
-            bottom: -100px;
-            right: 20px;
-            left: 20px;
-
+            bottom: 50px;
+            right: 0px;
+            left: 0px;
+            margin: auto;
             background: rgba(5, 20, 35, 0.475);
             border: 2px solid rgba(0, 245, 212, .3);
             border-radius: 15px;
