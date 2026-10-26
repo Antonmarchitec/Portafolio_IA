@@ -535,11 +535,11 @@ button {
 /* TABLETS */
 @media (min-width: 481px) and (max-width: 1024px) {
   .hero {
-    min-height: 100vh;
+    min-height: 1100px;
     position: relative;
     display: flex;
     align-items: center;
-    padding: 120px 6%;
+    padding: 10px 6%;
     background: radial-gradient(circle at 80% 40%, rgba(0, 245, 212, 0.15), transparent 35%), linear-gradient(rgba(0, 245, 212, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 245, 212, 0.035) 1px, transparent 1px), #020b18;
     background-size: auto, 45px 45px, 45px 45px, auto;
     overflow: hidden;
@@ -576,27 +576,35 @@ button {
       box-shadow: 0 0 30px rgba(0, 245, 212, 0.2), inset 0 0 30px rgba(0, 245, 212, 0.1);
     }
   }
+  .hero {
+    background: #0a0a0a;
+  }
   .hero .hero-logo {
-    width: 45%;
+    width: 55%;
     aspect-ratio: 1/1;
     position: absolute;
-    right: 0%;
-    top: 0%;
+    top: 100px;
+    right: 0;
+    bottom: initial;
     font-size: 500px;
     font-family: "Space Grotesk", sans-serif;
     font-weight: 900;
     color: rgba(0, 245, 212, 0.06);
-    z-index: 0;
     background-image: url("../assets/img/DigitizingCod.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    z-index: 0;
+    opacity: 0.5;
   }
   .hero .hero-content {
-    position: relative;
-    z-index: 2;
-    width: 400px;
-    margin-top: -100px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 150px;
+    left: 0;
+    padding: 30px;
+    margin-top: initial;
   }
   .hero .subtitle {
     font-size: 14px;
@@ -642,16 +650,17 @@ button {
     color: #94a3b8;
   }
   .hero .hero-buttons {
-    width: 60%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex start;
     align-items: flex-start;
     gap: 15px;
     margin-top: 60px;
   }
   .hero .btn {
-    width: 100%;
+    width: 250px;
     padding: 15px 28px;
     border-radius: 10px;
     font-weight: 400;
@@ -678,7 +687,7 @@ button {
     justify-content: space-around;
     align-items: flex-start;
     gap: 30px;
-    margin-top: 45px;
+    margin: 45px auto;
   }
   .hero .socials a {
     color: #00f5d4;
@@ -710,12 +719,11 @@ button {
     filter: drop-shadow(0 0 5px #00f5d4);
   }
   .hero .code-card {
-    position: absolute;
     width: 450px;
     padding: 30px 30px;
-    bottom: 0px;
-    right: initial;
+    position: absolute;
     left: calc(50% - 220px);
+    bottom: calc(50% - 450px);
     background: rgba(5, 20, 35, 0.475);
     border: 2px solid rgba(0, 245, 212, 0.3);
     border-radius: 15px;
@@ -791,6 +799,7 @@ button {
     font-weight: 400;
     text-transform: uppercase;
     opacity: 0.8;
+    display: none;
   }
   .hero .side-message::before {
     content: "";
