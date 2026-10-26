@@ -1256,12 +1256,11 @@
 
         .socials {
             width: 260px;
+            margin: 45px auto;
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
             gap: 30px;
-            margin-top: 45px;
-            
             a {
                 color: variables.$cyan;
                 font-size: 14px;

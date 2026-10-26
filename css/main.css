@@ -987,11 +987,11 @@ button {
   }
   .hero .socials {
     width: 260px;
+    margin: 45px auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     gap: 30px;
-    margin-top: 45px;
   }
   .hero .socials a {
     color: #00f5d4;
