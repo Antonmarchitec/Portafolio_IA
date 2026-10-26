@@ -629,7 +629,7 @@ button {
     filter: drop-shadow(4px 0 4px rgba(7, 247, 251, 0.923)) drop-shadow(-2px 0 0px rgba(255, 255, 255, 0.938));
   }
   .hero .role {
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Space Grotesk", sans-serif;
     margin-top: 5px;
     font-weight: 900;
@@ -723,7 +723,7 @@ button {
     padding: 30px 30px;
     position: absolute;
     left: calc(50% - 220px);
-    bottom: calc(50% - 450px);
+    bottom: calc(50% - 500px);
     background: rgba(5, 20, 35, 0.475);
     border: 2px solid rgba(0, 245, 212, 0.3);
     border-radius: 15px;
@@ -941,7 +941,7 @@ button {
     filter: drop-shadow(4px 0 4px rgba(7, 247, 251, 0.923)) drop-shadow(-2px 0 0px rgba(255, 255, 255, 0.938));
   }
   .hero .role {
-    font-size: 49px;
+    font-size: 32px;
     font-family: "Space Grotesk", sans-serif;
     margin-top: 5px;
     font-weight: 900;
